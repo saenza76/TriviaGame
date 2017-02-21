@@ -1,12 +1,14 @@
 body {
 	font-family: 'Arial', Times, Helvetica, sans-serif;
+	background: url(../images/ut.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
 .jumbotron {
-	width: 1440px;
-	height: 680px;
-	background-image: url(../images/ut.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
+	background-color: rgba(0,0,0,0);
 }
 
 

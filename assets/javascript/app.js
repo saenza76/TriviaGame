@@ -43,7 +43,7 @@ $(document).ready(function(){
 	
 	$("body").on("click", ".reset-button", function(event){
 		resetGame();
-		endSong.pause();
+		endSong = null;
 	});
 
 });
@@ -114,7 +114,7 @@ function resetGame(){
 	counter = 10;
 	generateHTML();
 	timerWrapper();
-	endSong.stop();
+	
 }
 
 
